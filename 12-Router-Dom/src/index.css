@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(28, 142, 200);
+}
+
+body,html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: black;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-self: space-between;
+  padding: 20px , 40px;
+}
+
+.nav div{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
