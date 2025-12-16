@@ -12,6 +12,7 @@ const App = () => {
   //   console.log(data);
   // }
 
+  // 1stly install axios using ---->  npm i axios
   const getData = async () => {
     const response = await axios.get('https://jsonplaceholder.typicode.com/posts')
     console.log(response.data);
